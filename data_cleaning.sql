@@ -197,7 +197,6 @@ ORDER BY SalePrice
 ---------------------------------------------------------------------------------------------------------
 
 /* Delete Unused Columns
-
 -- Retrieve all data from NashvilleHousing table
 SELECT *
 FROM PortfolioProject.dbo.NashvilleHousing;
@@ -205,5 +204,4 @@ FROM PortfolioProject.dbo.NashvilleHousing;
 -- Drop unused columns from NashvilleHousing table
 ALTER TABLE PortfolioProject.dbo.NashvilleHousing
 DROP COLUMN OwnerAddress, TaxDistrict, PropertyAddress, SaleDate
-
 */
